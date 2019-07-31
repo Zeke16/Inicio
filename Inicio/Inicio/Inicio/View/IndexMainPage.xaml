@@ -6,7 +6,8 @@
   <!--Pages can be added as references or inline-->
     <ContentPage Title="Tab 1" >
         <Grid>
-            <Grid.RowDefinitions>
+            
+                <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>
@@ -16,10 +17,11 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-
-            <Label Text="Welcome ,Username," Grid.Row="0" FontSize="30" FontAttributes="Bold" Grid.Column="0" Grid.ColumnSpan="3"  Margin="10,0"/>
             
+                <Label Text="Welcome ,Username," Grid.Row="0" FontSize="30" FontAttributes="Bold" Grid.Column="0" Grid.ColumnSpan="3"  Margin="10,0"/>
+        
             <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" BackgroundColor="#17202A">
+                
                 <Label Text="Lorem"  FontSize="25"  TextColor="White" Margin="10,0"/>
 
                 <StackLayout Orientation="Horizontal">
@@ -32,7 +34,11 @@
                     <Label TextColor="White" Margin="10,0" Text="loremloremloreloremlroemloreloreiniraeiilasidjaisjdisajdjwaijdafiafijaholacomoestasdnecetisataprenderuqetodoslospuerutosindahvblablablablabalba"/>
                     <controls:CircleImage Source="icons.png" WidthRequest="50" HeightRequest="50"/>
                 </StackLayout>
-            </StackLayout>
+                
+                    <Image Grid.Row="2" Source="icons.png" Grid.Column="0"/>
+                <Image Grid.Row="2" Source="icons.png" Grid.Column="1"/>
+                </StackLayout>
+               
         </Grid>
     </ContentPage>
    
