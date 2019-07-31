@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Inicio.View;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Inicio
@@ -11,7 +12,7 @@ namespace Inicio
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new IndexMainPage();
         }
 
         protected override void OnStart()
