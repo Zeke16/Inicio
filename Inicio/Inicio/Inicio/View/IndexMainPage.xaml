@@ -53,12 +53,63 @@
     </ContentPage>
     
     
-    <ContentPage Title="Tab 3" >
-        
+    <ContentPage Title="Categorias" >
+        <ScrollView>
+        <Grid BackgroundColor="White" ColumnSpacing="0" RowSpacing="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label Text="Categorias:" TextColor="Black" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" FontAttributes="Bold"></Label>
+            <ImageButton x:Name="BtnParqueA" BackgroundColor="White" Source="ParqueAc.jpg" Clicked="BtnParqueA_Clicked" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="2"></ImageButton>
+            <ImageButton x:Name="BtnSitioA" BackgroundColor="White" Source="Arq2.jpg" Clicked="BtnSitioA_Clicked" Grid.Column="3" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="2"></ImageButton>
+            <ImageButton x:Name="BtnPueblo" BackgroundColor="White" Source="Pueblo.jpg" Clicked="BtnPueblo_Clicked" Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="2" Grid.RowSpan="2"></ImageButton>
+            <ImageButton x:Name="BtnParque" BackgroundColor="White" Source="Parques.jpg" Clicked="BtnParque_Clicked" Grid.Column="3" Grid.Row="4" Grid.ColumnSpan="2" Grid.RowSpan="2"></ImageButton>
+            <ImageButton x:Name="BtnPlaya" BackgroundColor="White" Source="Playas.jpg" Clicked="BtnPlaya_Clicked" Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="2" Grid.RowSpan="2"></ImageButton>
+            <ImageButton x:Name="BtnBosque" BackgroundColor="White" Source="Bosques.jpg" Clicked="BtnBosque_Clicked" Grid.Column="3" Grid.Row="6" Grid.ColumnSpan="2" Grid.RowSpan="2" Padding="0"></ImageButton>
+        </Grid>
+        </ScrollView>
     </ContentPage>
     
     
     <ContentPage Title="¿Quienes Somos?" >
-        
+        <StackLayout>
+        <Label Text="Mision" x:Name="LblMision"
+            HorizontalTextAlignment="Center" TextColor="Blue"  ></Label>
+        <Label Text="El Salvador es una pequeña nación de América Central. Es conocida por sus playas en el océano Pacífico, los sitios de surf y el paisaje montañoso. Su Ruta de las Flores es un camino serpenteante que pasa por plantaciones de café, bosques tropicales con cascadas y ciudades como Juayúa, con sus festivales gastronómicos cada fin de semana, junto con Ataco, donde hay alegres murales. La capital, San Salvador, con volcanes como un espectacular telón de fondo, tiene varios museos y el Teatro Nacional."
+             ></Label>
+
+        <Label Text="Vision" x:Name="LblVision"
+               HorizontalTextAlignment="Center" TextColor="Black"></Label>
+        <Label Text="El Salvador es una pequeña nación de América Central. Es conocida por sus playas en el océano Pacífico, los sitios de surf y el paisaje montañoso. Su Ruta de las Flores es un camino serpenteante que pasa por plantaciones de café, bosques tropicales con cascadas y ciudades como Juayúa, con sus festivales gastronómicos cada fin de semana, junto con Ataco, donde hay alegres murales. La capital, San Salvador, con volcanes como un espectacular telón de fondo, tiene varios museos y el Teatro Nacional.">
+        </Label>
+
+
+        <Label Text="Valores" x:Name="LblValores"
+                   HorizontalTextAlignment="Center" TextColor="Blue"></Label>
+        <Label Text="El Salvador es una pequeña nación de América Central. Es conocida por sus playas en el océano Pacífico, los sitios de surf y el paisaje montañoso. Su Ruta de las Flores es un camino serpenteante que pasa por plantaciones de café, bosques tropicales con cascadas y ciudades como Juayúa, con sus festivales gastronómicos cada fin de semana, junto con Ataco, donde hay alegres murales. La capital, San Salvador, con volcanes como un espectacular telón de fondo, tiene varios museos y el Teatro Nacional.">
+        </Label>
+
+        <Label Text="Equipo" x:Name="LblEquipo"
+                   HorizontalOptions="Center" TextColor="Black"></Label>
+        <Label Text="El Salvador es una pequeña nación de América Central. Es conocida por sus playas en el océano Pacífico, los sitios de surf y el paisaje montañoso. Su Ruta de las Flores es un camino serpenteante que pasa por plantaciones de café, bosques tropicales con cascadas y ciudades como Juayúa, con sus festivales gastronómicos cada fin de semana, junto con Ataco, donde hay alegres murales. La capital, San Salvador, con volcanes como un espectacular telón de fondo, tiene varios museos y el Teatro Nacional.">
+        </Label>
+        </StackLayout>
     </ContentPage>
 </TabbedPage>
