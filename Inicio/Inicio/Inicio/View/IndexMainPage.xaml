@@ -48,8 +48,38 @@
     </ContentPage>
     
     
-    <ContentPage Title="Tab 3" >
-        
+    <ContentPage Title="Categorias" >
+        <ScrollView>
+        <Grid BackgroundColor="White" ColumnSpacing="0" RowSpacing="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label Text="Categorias:" TextColor="Black" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" FontAttributes="Bold"></Label>
+            <ImageButton x:Name="BtnParqueA" BackgroundColor="White" Source="ParqueAc.jpg" Clicked="BtnParqueA_Clicked" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="2"></ImageButton>
+            <ImageButton x:Name="BtnSitioA" BackgroundColor="White" Source="Arq2.jpg" Clicked="BtnSitioA_Clicked" Grid.Column="3" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="2"></ImageButton>
+            <ImageButton x:Name="BtnPueblo" BackgroundColor="White" Source="Pueblo.jpg" Clicked="BtnPueblo_Clicked" Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="2" Grid.RowSpan="2"></ImageButton>
+            <ImageButton x:Name="BtnParque" BackgroundColor="White" Source="Parques.jpg" Clicked="BtnParque_Clicked" Grid.Column="3" Grid.Row="4" Grid.ColumnSpan="2" Grid.RowSpan="2"></ImageButton>
+            <ImageButton x:Name="BtnPlaya" BackgroundColor="White" Source="Playas.jpg" Clicked="BtnPlaya_Clicked" Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="2" Grid.RowSpan="2"></ImageButton>
+            <ImageButton x:Name="BtnBosque" BackgroundColor="White" Source="Bosques.jpg" Clicked="BtnBosque_Clicked" Grid.Column="3" Grid.Row="6" Grid.ColumnSpan="2" Grid.RowSpan="2" Padding="0"></ImageButton>
+        </Grid>
+        </ScrollView>
     </ContentPage>
     
     

@@ -12,7 +12,7 @@ namespace Inicio
         {
             InitializeComponent();
 
-            MainPage = new IndexMainPage();
+            MainPage = new NavigationPage(new IndexMainPage());
         }
 
         protected override void OnStart()
