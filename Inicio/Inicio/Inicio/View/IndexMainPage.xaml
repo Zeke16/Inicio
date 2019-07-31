@@ -21,8 +21,17 @@
             
             <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" BackgroundColor="#17202A">
                 <Label Text="Lorem"  FontSize="25"  TextColor="White" Margin="10,0"/>
-                <Label TextColor="White" Margin="10,0" Text="loremloremloreloremlroemloreloreiniraeiilasidjaisjdisajdjwaijdafiafijaholacomoestasdnecetisataprenderuqetodoslospuerutosindahvblablablablabalba"/>
-                <controls:CircleImage />
+
+                <StackLayout Orientation="Horizontal">
+                    <controls:CircleImage Source="icons.png" WidthRequest="50" HeightRequest="50"/>
+                    <Label TextColor="White" Margin="10,0" Text="loremloremloreloremlroemloreloreiniraeiilasidjaisjdisajdjwaijdafiafijaholacomoestasdnecetisataprenderuqetodoslospuerutosindahvblablablablabalba"/>
+                </StackLayout>
+                <Label Text="Lorem"  FontSize="25"  TextColor="White" Margin="10,0"/>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label TextColor="White" Margin="10,0" Text="loremloremloreloremlroemloreloreiniraeiilasidjaisjdisajdjwaijdafiafijaholacomoestasdnecetisataprenderuqetodoslospuerutosindahvblablablablabalba"/>
+                    <controls:CircleImage Source="icons.png" WidthRequest="50" HeightRequest="50"/>
+                </StackLayout>
             </StackLayout>
         </Grid>
     </ContentPage>
