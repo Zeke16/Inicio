@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Inicio.View.IndexMainPage">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Tab 1" >
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Welcome ,Username," Grid.Row="0" FontSize="30" FontAttributes="Bold" Grid.Column="0" Grid.ColumnSpan="3"  Margin="10,0"/>
+
+            <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" BackgroundColor="#17202A">
+                <Label Text="Lorem"  FontSize="25"  TextColor="White" Margin="10,0"/>
+                <Label TextColor="White" Margin="10,0" Text="loremloremloreloremlroemloreloreiniraeiilasidjaisjdisajdjwaijdafiafijaholacomoestasdnecetisataprenderuqetodoslospuerutosindahvblablablablabalba"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage>
+
+
+    <ContentPage Title="Tab 2" >
+
+    </ContentPage>
+
+
+    <ContentPage Title="Tab 3" >
+
+    </ContentPage>
+
+
+    <ContentPage Title="Tab 4" >
+
+    </ContentPage>
+</TabbedPage>
